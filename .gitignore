@@ -94,3 +94,7 @@ db.sqlite3
 migrations
 /migrations
 migrations/
+
+.idea
+.idea/
+/.idea
