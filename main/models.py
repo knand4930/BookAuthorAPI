@@ -3,6 +3,7 @@ from django.db import models
 
 # Create your models here.
 
+# create the models or Database
 class Book(models.Model):
     title = models.CharField(max_length=200, blank=True, null=True)
     author = models.CharField(max_length=200, blank=True, null=True)
